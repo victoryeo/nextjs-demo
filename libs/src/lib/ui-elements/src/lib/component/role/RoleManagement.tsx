@@ -161,8 +161,7 @@ export function RoleManagement(props: CoinDetails) {
           {isSuccess && (
             <a
               target="_blank"
-              href={
-                }
+              href={'https://www.yahoo.com/' + writeData}
             >
               Click here for confirmation.
             </a>
