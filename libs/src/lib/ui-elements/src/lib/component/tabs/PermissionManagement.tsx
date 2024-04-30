@@ -63,7 +63,7 @@ export function PermissionManagement(props: any) {
       <div className="row mt-4">
         <div className="col-md-6 mb-4">
           <ul className="box-area">
-            <li>Mint</li>
+            <li>Create</li>
             <li>
               <div className="wallet-info">
                 <label htmlFor="">Wallet Address</label>
@@ -105,7 +105,7 @@ export function PermissionManagement(props: any) {
         </div>
         <div className="col-md-6 mb-4">
           <ul className="box-area">
-            <li>Burn</li>
+            <li>Delete</li>
             <li>
               <div className="wallet-info">
                 <label htmlFor="">Wallet Address</label>

@@ -56,7 +56,7 @@ export function Review(props: any) {
               <span>{props.ideaDetails.name}</span>
             </div>
             <div className="review-info">
-              <label htmlFor="">Coin Symbol:</label>
+              <label htmlFor="">Idea Symbol:</label>
               <span>{props.ideaDetails.symbol}</span>
             </div>
             <div className="review-info">
@@ -89,14 +89,14 @@ export function Review(props: any) {
             <h3>Permission Management Details :</h3>
             <p className="wallet-address-list">Wallet Address</p>
             <div className="review-info">
-              <label htmlFor="">Mint:</label>
+              <label htmlFor="">Create</label>
               <div className="hash-tag">
                 <span>{props.managementDetails.cashWalletAddress}</span>{' '}
                 <button className="copybtn">Copy</button>
               </div>
             </div>
             <div className="review-info">
-              <label htmlFor="">Burn:</label>
+              <label htmlFor="">Delete:</label>
               <div className="hash-tag">
                 <span>{props.managementDetails.burnWalletAddress}</span>{' '}
                 <button className="copybtn">Copy</button>
